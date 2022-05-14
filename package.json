@@ -1,0 +1,42 @@
+{
+  "name": "js-synonyms",
+  "version": "1.0.0",
+  "description": "Interface to find synonyms using the offline database of thesaurus",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rimraf './dist'",
+    "compile": "npm run clean && tsc",
+    "fmt": "prettier --write . && eslint --fix .",
+    "lint": "eslint .",
+    "test": "jest . --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/survivorbat/js-synonyms.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "synonyms",
+    "js-synonyms",
+    "thesaurus"
+  ],
+  "homepage": "https://github.com/survivorbat/js-synonyms",
+  "author": "survivorbat",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "ts-jest": "^28.0.2",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "line-reader": "^0.4.0"
+  }
+}
