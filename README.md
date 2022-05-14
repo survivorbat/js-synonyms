@@ -7,9 +7,7 @@ of response from the author I created my own using [zaibacu/thesaurus](https://g
 
 ## Installation
 
-```
-npm i js-synonyms
-```
+`npm i js-synonyms`
 
 ## Methods
 
