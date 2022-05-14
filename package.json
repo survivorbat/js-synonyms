@@ -35,8 +35,5 @@
     "eslint-config-prettier": "^8.5.0",
     "ts-jest": "^28.0.2",
     "typescript": "^4.6.4"
-  },
-  "dependencies": {
-    "line-reader": "^0.4.0"
   }
 }
