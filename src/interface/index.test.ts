@@ -1,6 +1,6 @@
 import fileSynonyms from './synonyms.json';
 import * as main from './index';
-import {synonym, getSynonyms, search, getKeys} from './index';
+import { synonym, getSynonyms, search, getKeys } from './index';
 
 beforeEach(() => {
   jest.resetModules();
@@ -25,7 +25,6 @@ describe('getKeys', () => {
     expect(result).toEqual(Object.keys(fileSynonyms));
   });
 });
-
 
 describe('synonym', () => {
   const testData = [
@@ -80,20 +79,12 @@ describe('search', () => {
     },
     {
       substring: 'abc',
-      keys: [
-        'a', 'b', 'c', 'ab',
-        'ca', 'abc',
-        'cbaabc', 'aabbcc',
-      ],
+      keys: ['a', 'b', 'c', 'ab', 'ca', 'abc', 'cbaabc', 'aabbcc'],
       expectedWords: ['abc', 'cbaabc'],
     },
     {
       substring: 'node',
-      keys: [
-        'b', 'c', 'd', 'e',
-        'f', 'g',
-        'a', 'h',
-      ],
+      keys: ['b', 'c', 'd', 'e', 'f', 'g', 'a', 'h'],
       expectedWords: [],
     },
   ];

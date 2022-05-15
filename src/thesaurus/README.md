@@ -1,16 +1,18 @@
 # thesaurus
+
 Offline database of synonyms/thesaurus
 
 # Format
+
 It follows `jsonl` format - meaning, that each line is a separate `json` document.
 It contains:
+
 ```
 word: (String) Actual word
 key: (String) Some words can have multiple meanings. Each meaning will have same word, but different key.
 pos: (String) part of speech tag, eg. `noun`, `verb`
 synonyms: (Array of String) synonyms related to this key
 ```
-
 
 # Languages
 
@@ -46,6 +48,7 @@ English database can be found: [WordNet](https://wordnet.princeton.edu/download)
 If any other language strictly follows same format, it should work as well.
 
 Usage:
+
 ```
 usage: wordnet_extract.py [-h] [--db_path DB_PATH] output
 
@@ -56,5 +59,3 @@ optional arguments:
   -h, --help         show this help message and exit
   --db_path DB_PATH  Directory where wordnet data files are located
 ```
-
-

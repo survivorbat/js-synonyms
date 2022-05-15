@@ -1,4 +1,5 @@
 node_modules/**
+*.json
 coverage/**
 nyc-output/**
 reports/**

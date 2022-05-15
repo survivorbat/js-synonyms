@@ -1,7 +1,9 @@
 import synonyms from './synonyms.json';
 
 // This method can be mocked in unit-tests
-export const getSynonyms = (): Record<string, string[]> => <Record<string, string[]>>synonyms;
+export const getSynonyms = (): Record<string, string[]> =>
+  <Record<string, string[]>>synonyms;
+
 export const getKeys = (): string[] => Object.keys(synonyms);
 
 /**
