@@ -76,14 +76,14 @@ describe('search', () => {
     {
       substring: 'a',
       keys: ['ruby', 'python', 'php', 'node', 'haskell', 'scala'],
-      expectedWords: [],
+      expectedWords: ['haskell', 'scala'],
     },
     {
       substring: 'abc',
       keys: [
-        'ruby', 'python', 'php', 'node',
-        'haskell', 'scala',
-        'baseball', 'football',
+        'a', 'b', 'c', 'ab',
+        'ca', 'abc',
+        'cbaabc', 'aabbcc',
       ],
       expectedWords: ['abc', 'cbaabc'],
     },
@@ -94,7 +94,7 @@ describe('search', () => {
         'f', 'g',
         'a', 'h',
       ],
-      expectedWords: ['node', 'nodejs', 'backnode'],
+      expectedWords: [],
     },
   ];
 

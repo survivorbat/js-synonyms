@@ -5,12 +5,11 @@ export const getSynonyms = (): Record<string, string[]> => <Record<string, strin
 export const getKeys = (): string[] => Object.keys(synonyms);
 
 /**
- * Returns a list of synonyms of  the given word, if no synonyms were found, it will return an empty array containing
- * the input word.
+ * Returns a list of synonyms of  the given word, if no synonyms were found, it will return an empty array.
  * @param word
  */
 export const synonym = (word: string): string[] => {
-  return getSynonyms()[word] || [word];
+  return getSynonyms()[word] || [];
 };
 
 /**
