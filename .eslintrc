@@ -7,6 +7,6 @@
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": [],
+  "plugins": ["import"],
   "rules": {}
 }
