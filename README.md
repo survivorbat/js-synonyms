@@ -1,5 +1,9 @@
 # 📙 JS Synonyms
 
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/survivorbat/js-synonyms/deploy)
+![npm](https://img.shields.io/npm/dt/js-synonyms)
+![GitHub](https://img.shields.io/github/license/survivorbat/js-synonyms)
+
 Interface to find synonyms using the offline database of thesaurus.
 
 Originally a fork of [https://github.com/zaibacu/thesaurus](https://github.com/zaibacu/thesaurus), but due to a lack
