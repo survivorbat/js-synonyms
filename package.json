@@ -1,6 +1,6 @@
 {
   "name": "js-synonyms",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Interface to find synonyms using the offline database of thesaurus",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
