@@ -6,7 +6,7 @@
 
 Interface to find synonyms using the offline database of thesaurus.
 
-Originally a fork of [https://github.com/zaibacu/thesaurus](https://github.com/zaibacu/thesaurus), but due to a lack
+Originally a fork of [https://github.com/rohithkn/synonyms-array](https://github.com/rohithkn/synonyms-array), but due to a lack
 of response from the author I created my own using [zaibacu/thesaurus](https://github.com/zaibacu/thesaurus).
 
 ## ⬇️ Installation
